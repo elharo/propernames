@@ -66,7 +66,7 @@
     - Write test: isProperNoun("Dr") returns true
     - Write test: isProperNoun("Mr") returns true
     - Write test: isProperNoun("Prof") returns true
-    - Write test: isProperNoun("dr") returns false (case sensitive)
+    - Write test: isProperNoun("dr") returns true (case insensitive)
     - Verify tests fail, implement title/honorific detection
     - _Requirements: 2.3, 2.7_
 
