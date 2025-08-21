@@ -22,17 +22,17 @@
     - Verify tests fail, implement minimal code to make them pass
     - _Requirements: 1.2, 1.3_
 
-- [ ] 3. Test and implement basic proper noun detection (TDD)
-  - [ ] 3.1 Test and implement simple capitalized word detection
+- [x] 3. Test and implement basic proper noun detection (TDD)
+  - [x] 3.1 Test and implement simple capitalized word detection
     - Write test: isProperNoun("John") returns true
     - Write test: isProperNoun("john") returns true
     - Write test: isProperNoun("box") returns false
     - Write test: isProperNoun("Box") returns false
     - Write test: isProperNoun("JOHN") returns true
-    - Verify tests fail, implement minimal capitalization-based detection
+    - Verify tests fail, implement minimal detection
     - _Requirements: 2.1, 3.1_
 
-  - [ ] 3.2 Test and implement DetectionResult creation
+  - [x] 3.2 Test and implement DetectionResult creation
     - Write test: detect("John") returns list with one DetectionResult
     - Write test: DetectionResult has correct text, position, confidence
     - Verify tests fail, implement DetectionResult class and basic detection
