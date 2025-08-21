@@ -29,7 +29,6 @@ public class ProperNounDetector {
     if (text == null) {
       throw new NullPointerException("Text cannot be null");
     }
-
     // TODO: Implement multilingual proper noun detection with English precedence
     return new ArrayList<>();
   }
@@ -46,7 +45,6 @@ public class ProperNounDetector {
     if (word == null) {
       throw new NullPointerException("Word cannot be null");
     }
-
     List<DetectionResult> results = detect(word);
     return !results.isEmpty();
   }
